@@ -18,12 +18,7 @@ After importing module, we will create a window so that we can place widgets on 
 ws.geometry('500x450+500+200')
 ws.title('PythonGuides')
 ws.config(bg='#223441')
-ws.resizable(width=False, height=False)
-
-....
-....
-
-ws.mainloop() `
+ws.resizable(width=False, height=False) .... .... ws.mainloop() `
 
 #Step 3: Creating a frame
 
