@@ -40,10 +40,7 @@ In this section, we will learn why and how we have used Listbox on the window.
     fg='#464646',
     highlightthickness=0,
     selectbackground='#a6a6a6',
-    activestyle="none",
-    
-)
-lb.pack(side=LEFT, fill=BOTH)`
+    activestyle="none",    ) lb.pack(side=LEFT, fill=BOTH)`
 
 #Step 5: Adding dummy data
 
