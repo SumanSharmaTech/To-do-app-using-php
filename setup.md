@@ -56,10 +56,7 @@ You add or delete whatever data you want.
     'take a nap',
     'Learn something',
     'paint canvas'
-    ]
-
-
-for item in task_list:
+    ] for item in task_list:
     lb.insert(END, item)`
     
 #Step 6: Adding Scrollbars
@@ -68,7 +65,6 @@ In this section, we will understand why and how scrollbars are added to the wind
 
 `sb = Scrollbar(frame)
 sb.pack(side=RIGHT, fill=BOTH)
-
 lb.config(yscrollcommand=sb.set)
 sb.config(command=lb.yview)`
 
@@ -79,7 +75,6 @@ sb.config(command=lb.yview)`
     ws,
     font=('times', 24)
     )
-
 my_entry.pack(pady=20)`
 
 
@@ -103,7 +98,6 @@ button_frame.pack(pady=20)`
     command=newTask
 )
 addTask_btn.pack(fill=BOTH, expand=True, side=LEFT)
-
 delTask_btn = Button(
     button_frame,
     text='Delete Task',
